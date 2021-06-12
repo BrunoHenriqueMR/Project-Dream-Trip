@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+}
+
+/*---------Menu---------*/
+.menu{
+    float: left;
+    width: 100%;
+    font-family: Montserrat, sans-serif;
+    background-color: #4a0074;
+    color: whitesmoke;
+    position: static;
+    margin-bottom: 3%;
+}
+.menu img{
+    float: left;
+    width: 15%;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: 2%;
+    transition: width 1s;
+}
+.menu img:hover{
+    width: 17%;
+}
+.menu h1{
+    float: left;
+    font-size: 5vw;
+    margin-top: 4%;
+    margin-left: 9%;
+    margin-right: 8%;
+    margin-bottom: 3%;
+    transition: font-size 0.5s;
+}
+.menu h1:hover{
+    text-shadow:0px 4px 18px whitesmoke;
+    font-size: 5.6vw;
+}
+.menu li{
+    display:inline-block;
+    margin-top: 8%;
+    margin-left: 1%;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1vw;
+    color: whitesmoke;
+    transition: font-size 0.8s;
+    margin-bottom: 3%;
+}
+.menu a:hover{
+    text-shadow:0px 4px 16px whitesmoke;
+    font-size: 1.3vw;
+}
+/*----------------------------------------*/
+
+/*---------Conteúdo---------*/
+.conteudo{
+    float: left;
+    width: 100%;
+    background-color: #4a0074;
+    background-image: url(../MÍDIA/FUNDO.png);
+    font-family: Montserrat, sans-serif;
+}
+
+/*-----Madri----*/
+.conteudo #madri{
+    float: left;
+    width: 35%;
+    margin-top: 4%;
+    margin-left: 12%;
+    margin-bottom: 10%;
+    background-color: whitesmoke;
+    background-image: url(../MÍDIA/FUNDO.png);
+    transition: width 0.8s;
+}
+.conteudo #madri:hover{
+    width: 38%;
+}
+.conteudo #madri img{
+    width: 100%;
+}
+.conteudo #madri h4{
+    font-size: 0.8vw;
+    color: rgb(173, 173, 173);
+}
+.conteudo #madri h2{
+    font-size: 2.5vw;
+    text-align: center;
+    color: #4a0074;
+    margin-bottom: 2%;
+}
+.conteudo #madri p{
+    font-size: 1.5vw;
+    color: #4a0074;
+    margin-bottom: 2%;
+    margin-left: 2%;
+}
+.conteudo #madri h5{
+    font-size: 1vw;
+    text-align: center;
+    margin-top: 2%;
+    color: #4a0074;
+}
+.conteudo #madri h3{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    color: #4a0074;
+}
+.conteudo #madri h6{
+    font-size: 1vw;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    color: #4a0074;
+}
+.conteudo #madri a{
+    text-decoration: none;
+    color: #4a0074;
+    transition: font-size 0.8s;
+}
+.conteudo #madri a:hover{
+    color: #fecc5a;
+    font-size: 1.12vw;
+}
